@@ -1,0 +1,34 @@
+{
+  "name": "@snigo.dev/carousel",
+  "version": "0.0.0",
+  "description": "Carousel react component",
+  "keywords": [
+    "carousel",
+    "react",
+    "component"
+  ],
+  "author": "snigo <snigo.ogins@gmail.com>",
+  "homepage": "https://github.com/snigo/slide-components#readme",
+  "license": "Apache-2.0",
+  "main": "pkg/carousel.js",
+  "types": "pkg/carousel.d.ts",
+  "source": "src/carousel.tsx",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/snigo/slide-components.git"
+  },
+  "scripts": {
+    "build": "webpack",
+    "postbuild": "copyfiles -f ../../LICENSE .",
+    "publish": "npm publish pkg"
+  },
+  "bugs": {
+    "url": "https://github.com/snigo/slide-components/issues"
+  },
+  "peerDependencies": {
+    "react": ">=16.3.1"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "outDir": "./pkg",
+    "target": "es6",
+    "module": "es6",
+    "jsx": "react",
+    "noImplicitAny": true,
+    "allowSyntheticDefaultImports": true,
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "declaration": true
+  },
+  "include": ["src/*"]
+}
