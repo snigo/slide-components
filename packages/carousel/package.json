@@ -23,7 +23,7 @@
   "scripts": {
     "build": "webpack",
     "postbuild": "copyfiles -f ../../LICENSE .",
-    "publish": "npm publish"
+    "publish": "npm publish ."
   },
   "bugs": {
     "url": "https://github.com/snigo/slide-components/issues"
