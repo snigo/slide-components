@@ -26,6 +26,8 @@ module.exports = {
   output: {
     filename: 'carousel.js',
     path: path.resolve(__dirname, 'pkg'),
+    library: '',
+    libraryTarget: 'commonjs',
   },
   externals: {
     react: {

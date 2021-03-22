@@ -21,7 +21,7 @@
     "build": "webpack",
     "postbuild": "copyfiles -f ../../LICENSE .",
     "prepublish": "npm run build",
-    "publish": "npm publish --access public"
+    "pub": "npm publish --access public"
   },
   "bugs": {
     "url": "https://github.com/snigo/slide-components/issues"
