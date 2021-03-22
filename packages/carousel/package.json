@@ -1,6 +1,6 @@
 {
   "name": "@snigo.dev/carousel",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "Carousel react component",
   "keywords": [
     "carousel",
@@ -13,7 +13,9 @@
   "main": "pkg/index.js",
   "module": "pkg/index.mjs",
   "types": "pkg/index.d.ts",
-  "files": ["pkg"],
+  "files": [
+    "pkg"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/snigo/slide-components.git"
