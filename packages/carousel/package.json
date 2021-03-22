@@ -11,7 +11,7 @@
   "homepage": "https://github.com/snigo/slide-components#readme",
   "license": "Apache-2.0",
   "main": "pkg/index.js",
-  "module": "pkg/index.mjs",
+  "module": "pkg/index.module.js",
   "types": "pkg/index.d.ts",
   "files": [
     "pkg"
