@@ -6,4 +6,6 @@
 
 import Carousel from '@snigo.dev/carousel';
 
+/** TODO: Finish README */
+
 ```
