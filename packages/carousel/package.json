@@ -10,15 +10,16 @@
   "author": "snigo <snigo.ogins@gmail.com>",
   "homepage": "https://github.com/snigo/slide-components#readme",
   "license": "Apache-2.0",
-  "main": "pkg/carousel.js",
-  "types": "pkg/carousel.d.ts",
-  "source": "src/carousel.tsx",
+  "main": "pkg/index.js",
+  "module": "pkg/index.mjs",
+  "types": "pkg/index.d.ts",
+  "files": ["pkg"],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/snigo/slide-components.git"
   },
   "scripts": {
-    "build": "webpack",
+    "build": "rollup -c",
     "postbuild": "copyfiles -f ../../LICENSE .",
     "prepublish": "npm run build",
     "pub": "npm publish --access public"

@@ -8,7 +8,8 @@
     "allowSyntheticDefaultImports": true,
     "moduleResolution": "node",
     "sourceMap": true,
-    "declaration": true
+    "declaration": true,
+    "declarationDir": "./pkg"
   },
   "include": ["src/*"]
 }
