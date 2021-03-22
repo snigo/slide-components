@@ -28,7 +28,12 @@ module.exports = {
     path: path.resolve(__dirname, 'pkg'),
   },
   externals: {
-    react: 'umd react',
+    react: {
+      root: 'React',
+      commonjs2: 'react',
+      commonjs: 'react',
+      amd: 'react',
+    },
   },
   devtool: 'inline-source-map',
 };
