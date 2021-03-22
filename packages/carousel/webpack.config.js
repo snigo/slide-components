@@ -28,7 +28,7 @@ module.exports = {
     path: path.resolve(__dirname, 'pkg'),
   },
   externals: {
-    react: 'React',
+    react: 'umd react',
   },
   devtool: 'inline-source-map',
 };
