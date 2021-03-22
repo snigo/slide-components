@@ -13,7 +13,7 @@ export default {
       sourcemap: true,
     },
     {
-      file: 'pkg/index.mjs',
+      file: 'pkg/index.module.js',
       format: 'esm',
       sourcemap: true,
     },
