@@ -13,9 +13,6 @@
   "main": "pkg/carousel.js",
   "types": "pkg/carousel.d.ts",
   "source": "src/carousel.tsx",
-  "publishConfig": {
-    "access": "public"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/snigo/slide-components.git"
@@ -23,7 +20,7 @@
   "scripts": {
     "build": "webpack",
     "postbuild": "copyfiles -f ../../LICENSE .",
-    "publish": "npm publish ."
+    "publish": "npm publish --access public"
   },
   "bugs": {
     "url": "https://github.com/snigo/slide-components/issues"
