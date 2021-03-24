@@ -33,9 +33,12 @@ module.exports = {
       },
     ],
     'import/no-extraneous-dependencies': 0, /** Provided by lerna.js */
-    'no-use-before-define': 0, /** Fixing @typescript-eslint bug */
+    'import/prefer-default-export': 0, /** I prefer not */
+    'jsx-a11y/label-has-associated-control': 0, /** ESLint just being buggy */
+    'no-confusing-arrow': 0, /** You're the only one confused */
     'react/jsx-filename-extension': [1, { extensions: ['.js', '.jsx', '.ts', '.tsx'] }], /** Allow all file extensions */
     'react/react-in-jsx-scope': 0, /** There is no such rule! */
+    'react/jsx-props-no-spreading': 0, /** I'm grown up enough */
   },
   settings: {
     'import/resolver': {
@@ -48,6 +51,9 @@ module.exports = {
     {
       files: ['**/*.tsx'],
       rules: {
+        'no-unused-vars': 0,
+        'no-undef': 0,
+        'no-use-before-define': 0,
         'react/prop-types': 0,
       },
     },
