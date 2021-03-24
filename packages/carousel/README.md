@@ -51,8 +51,9 @@ npm i @snigo.dev/carousel
 | `showArrows`   | `boolean`  | true              | Shows arrows on both sides of the carousel                      |
 | `allowSwipe`   | `boolean`  | true              | Allows swipe either by mouse or touch interaction               |
 | `allowDotClick`| `boolean`  | true              | Allows navigation by clicking on the dot                        |
-| `onStart`      | `function` |                   | Callback to be called on when carousel renderred on the screen  |
+| `onStart`      | `function` |                   | Callback to be called when carousel is rendered on the screen   |
 | `onEnd`        | `function` |                   | Callback to be called on the last slide                         |
+| `onApproach`   | `function` |                   | Callback to be called slides are approaching the end            |
 | `onChange`     | `function` |                   | Callback to be called on every slide change                     |
 
 ### Dimensions
